@@ -1,10 +1,8 @@
 def is_prime(num):
-    if num % 2 == True:
-        return True
-    elif num % 3 == True:
-        return False
-    else:
-        return False
+    for i in range(2, int(1 + num ** 0.5)):
+        if num % i == 0:
+            return False
+    return True
 
 # Test Case
 
