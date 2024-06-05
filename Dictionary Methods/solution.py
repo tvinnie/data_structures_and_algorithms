@@ -94,7 +94,23 @@ print(type(my_list)) # outputs: <class 'list'>
 
 
 # -------------------------------------------------------------------------------------------
+# You can use the del keyword to remove a specific item, or delete a dictionary. To remove all the dictionary's items, you need to use the clear() method:
 
+
+pol_eng_dictionary = {
+    "zamek": "castle",
+    "woda": "water",
+    "gleba": "soil"
+    }
+ 
+print(len(pol_eng_dictionary)) # outputs: 3
+del pol_eng_dictionary["zamek"] # remove an item
+print(len(pol_eng_dictionary)) # outputs: 2
+ 
+pol_eng_dictionary.clear() # removes all the items
+print(len(pol_eng_dictionary)) # outputs: 0
+ 
+del pol_eng_dictionary # removes the dictionary
 
 
 
