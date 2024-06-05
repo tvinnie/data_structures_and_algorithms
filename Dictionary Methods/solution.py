@@ -116,7 +116,16 @@ del pol_eng_dictionary # removes the dictionary
 
 # -------------------------------------------------------------------------------------------
 
+# To copy a dictionary, use the copy() method:
 
+
+pol_eng_dictionary = {
+    "zamek": "castle",
+    "woda": "water",
+    "gleba": "soil"
+    }
+ 
+copy_dictionary = pol_eng_dictionary.copy()
 
 # -------------------------------------------------------------------------------------------
 
