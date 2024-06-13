@@ -3,6 +3,9 @@
 # sorted()
 # sort()
 
+# a function named sorted(), creating a new, sorted list;
+# a method named sort(), which sorts the list in situ
+
 # -----------------------------------------------------------------------
 
 # SORTED()
