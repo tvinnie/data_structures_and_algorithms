@@ -1,4 +1,9 @@
+"""
+Your task is to write a program which:
 
+asks the user for some text;
+checks whether the entered text is a palindrome, and prints the result.
+"""
 
 word = input('Enter word/sentence: ')
 
