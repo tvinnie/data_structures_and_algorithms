@@ -1,15 +1,3 @@
-# Initiating a child class
-
-class AddingStack(Stack): # Child class init
-    def __init__(self):
-        Stack.__init__(self) # Explicitly invoke a superclass's constructor
-        self.__sum = 0
-
-        """
-        you have to point to the object (the class's instance) which has to be initialized by the constructor – this is why you have to specify the argument and use the self variable here; note: invoking any method (including constructors) from outside the class never requires you to put the self argument at the argument's list – invoking a method from within the class demands explicit usage of the self argument, and it has to be put first on the list.
-
-        """
-
 # Full Code - Parent and Child Class
 
 class Stack:
