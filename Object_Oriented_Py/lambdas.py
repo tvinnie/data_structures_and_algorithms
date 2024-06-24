@@ -33,4 +33,18 @@ for x in map(lambda x: x * x, list_2):
     print(x, end=' ')
 print()
 
-# Output: 1 4 16 64 256 
+# Output: 1 4 16 64 256
+
+# lambda with map() function
+# filters its second argument while being guided by directions flowing from the function specified as the first argument (the function is invoked for each list element, just like in map()).
+
+# The elements which return True from the function pass the filter – the others are rejected.
+
+from random import seed, randint
+
+seed()
+data = [randint(-10,10) for x in range(5)]
+filtered = list(filter(lambda x: x > 0 and x % 2 == 0, data))
+
+print(data)
+print(filtered)
