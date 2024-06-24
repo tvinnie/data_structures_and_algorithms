@@ -7,4 +7,3 @@ def powers(n):
 t = list(powers(6))
 print(t)
 
-# Output
