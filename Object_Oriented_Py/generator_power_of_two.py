@@ -7,3 +7,7 @@ def power_of_two(n):
     # test case
     for i in power_of_two(5):
         print(i)
+
+    # test casem 2
+#    t =  [i for i in power_of_two(5)]
+#     print(t)
