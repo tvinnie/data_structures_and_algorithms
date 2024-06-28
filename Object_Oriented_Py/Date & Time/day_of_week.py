@@ -15,3 +15,5 @@ from datetime import date
 d = date(2019, 11, 4)
 print(d.isoweekday())
 
+#The integer returned by the isodayweek method follows the ISO 85601 specification
+
