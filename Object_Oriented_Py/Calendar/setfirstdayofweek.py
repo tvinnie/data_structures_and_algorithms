@@ -1,4 +1,4 @@
-import  calendar
+import calendar
 
 calendar.setfirstweekday(calendar.MONDAY)
-calendar.prmonth(2020,12)
+calendar.prmonth(2020, 12)
