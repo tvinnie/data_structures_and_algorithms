@@ -1,3 +1,4 @@
+#QUESTION
 """
 Your boss assigned you to a small project. They are performing an analysis of the travels people made to attend business meetings. You are given a dataset with only the email subjects for each of the people traveling.
 
@@ -18,7 +19,7 @@ The variable flight containing one email subject was loaded in your session. You
 
 """
 
-# Solution
+#SOLUTION
 
 # Import re
 import re
@@ -34,8 +35,7 @@ print("Airline: {} Flight number: {}".format(flight_matches[0][0], flight_matche
 print("Departure: {} Destination: {}".format(flight_matches[0][2], flight_matches[0][3]))
 print("Date: {}".format(flight_matches[0][4]))
 
-# Sample Output
-
+#SAMPLE OUTPUT
 """
 Airline: IB Flight number: 3723
 Departure: AMS Destination: MAD
